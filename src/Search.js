@@ -1,6 +1,6 @@
 import React from "react";
 
-const baseUrl = "http://openlibrary.org";
+const baseUrl = "https://openlibrary.org";
 
 export function searchBooks(query) {
   const url = new URL(baseUrl + "/search.json");
